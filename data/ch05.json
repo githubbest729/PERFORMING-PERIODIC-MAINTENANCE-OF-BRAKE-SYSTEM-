@@ -1,0 +1,161 @@
+{
+"id": 5,
+"title": "Workshop Safety",
+"time": "45 min",
+"intro": "Brake work involves heavy vehicles, hazardous dust and chemicals, and parts that determine whether a vehicle can stop. Safe habits come first. This chapter covers protective equipment, lifting, chemical handling, housekeeping and environmental care.",
+"objectives": [
+"List and explain personal protective equipment (PPE) for brake work.",
+"Describe the correct way to lift and support a vehicle.",
+"Explain safe handling of brake fluid, brake dust and other chemicals.",
+"Describe good housekeeping and correct waste disposal.",
+"Use the workshop safety checklist."
+],
+"sections": [
+{
+"h": "Personal protective equipment (PPE)",
+"blocks": [
+{"table": {"h": ["Item", "Why it matters", "Notes"], "r": [
+["Safety glasses or goggles", "Protect eyes from brake fluid splashes, springs, dust and debris.", "Wear them whenever working under a vehicle or cleaning parts."],
+["Gloves", "Protect skin from brake fluid, cleaners, hot parts and sharp edges.", "Use chemical-resistant gloves (such as nitrile) for fluid and cleaners."],
+["Safety footwear", "Protects feet from dropped parts and the vehicle's weight.", "Closed, sturdy shoes with non-slip soles; steel or composite toe."],
+["Coveralls or work clothes", "Keep fluid and dust off skin and clothes.", "Avoid loose clothing or jewellery near moving parts."],
+["Dust mask or respirator", "Reduces breathing of dust where dust cannot be avoided.", "Use equipment rated for fine dust. Do not rely on a mask as the only control."],
+["Hearing protection", "Protects against noisy tools such as air tools.", "Use in noisy areas."]
+]}}
+]
+},
+{
+"h": "Lifting and supporting the vehicle",
+"blocks": [
+"Follow the sequence from Chapter 4: level ground, parking brake and transmission set, wheel chocks, jack at the lift point, **jack stands** under approved support points, and a gentle shake test before working.",
+{"ul": [
+"Never use bricks, wood blocks or concrete blocks as supports.",
+"Never put any part of your body under a vehicle that is on a jack only.",
+"Do not run the engine with the vehicle on stands unless a procedure requires it and the vehicle is secured.",
+"When lowering the vehicle, make sure that tools and people are clear."
+]},
+{"warn": "Vehicles fall suddenly and without warning. Treat every raised vehicle as dangerous until it is supported by stands and chocked."}
+]
+},
+{
+"h": "Safe handling of brake fluid",
+"blocks": [
+{"ul": [
+"Brake fluid can **irritate skin and eyes**. Wear gloves and eye protection. If it touches skin, wash with soap and water. For eyes, rinse with water for several minutes and seek medical attention.",
+"Most brake fluids **damage paint**. Cover painted surfaces and wipe up spills immediately with water.",
+"Keep containers **closed**; glycol-based fluid absorbs moisture from the air.",
+"Use **fresh fluid** from a sealed container, and never use fluid that has been left open or that was drained from the system.",
+"Use only the fluid type specified by the manufacturer.",
+"Keep fluid away from children and animals; it is toxic if swallowed."
+]}
+]
+},
+{
+"h": "Brake dust precautions",
+"blocks": [
+"Brake dust is fine particulate that should not be breathed. Older or imported friction materials may contain hazardous materials, and the contents cannot be known by looking at it. **Treat all brake dust as hazardous.**",
+{"ul": [
+"**Never blow dust off with compressed air.** This puts dust in the air.",
+"Use an **enclosed brake washer, a vacuum designed for fine dust (HEPA), or a wet cleaning method** approved for your workplace.",
+"Do not dry-brush or dry-sweep brake dust.",
+"Wash hands and face before eating, drinking or smoking.",
+"Do not take dusty work clothes home; launder them separately."
+]}
+]
+},
+{
+"h": "Chemical handling",
+"blocks": [
+"Brake cleaners, solvents, penetrating oils, lubricants and fluids are all chemicals. Before using one:",
+{"ol": [
+"Read the **label and safety data sheet** for hazards.",
+"Use in a **ventilated area**.",
+"Keep away from **flames, sparks and hot surfaces** because many cleaners are flammable.",
+"Do not mix chemicals.",
+"Store in original, labelled containers.",
+"Never put chemicals in drink bottles."
+]},
+{"warn": "Some brake cleaners can produce harmful fumes if exposed to heat, such as welding, hot surfaces or open flames. Keep them away from heat sources."}
+]
+},
+{
+"h": "Workshop housekeeping",
+"blocks": [
+{"ul": [
+"Keep floors **clean and dry**. Wipe up fluid spills immediately.",
+"Keep walkways clear of hoses, cords and tools.",
+"Return tools to their storage after use.",
+"Keep a fire extinguisher accessible and know how to use it.",
+"Keep a first aid kit and eye wash available.",
+"Keep lighting good, especially under the vehicle.",
+"Tag a vehicle that is unsafe or under repair."
+]}
+]
+},
+{
+"h": "Waste disposal and environmental safety",
+"blocks": [
+{"ul": [
+"Collect used **brake fluid** in a labelled, sealed container. Do not pour it on the ground or down drains.",
+"Dispose of used fluid, contaminated rags, cleaners, and brake dust waste **according to local regulations**, using approved collection points.",
+"Used pads, shoes and rotors may be recycled in some places; follow local rules.",
+"Use drip pans and absorbent materials to prevent spills.",
+"Close containers after use and store waste safely until collected."
+]},
+"Brake fluid and cleaning chemicals can contaminate soil and water. Careful disposal protects the people and the environment around you."
+]
+},
+{
+"h": "Workshop safety checklist",
+"blocks": [
+{"check": {"title": "Workshop Safety Checklist", "items": [
+"Safety glasses are worn.",
+"Gloves are worn and in good condition.",
+"Safety footwear is worn.",
+"Loose clothing, jewellery and long hair are secured.",
+"The work area is level, clean and dry.",
+"The vehicle is chocked, with the parking brake and transmission set.",
+"The vehicle is lifted at the correct points and supported on jack stands.",
+"No one is under a vehicle on a jack only.",
+"Brake fluid is in a sealed container and spills are cleaned up.",
+"No compressed air is used to blow brake dust.",
+"Fire extinguisher, first aid kit and eye wash are accessible.",
+"Waste containers are available for fluid, rags and dust waste."
+]}}
+]
+}
+],
+"concepts": [
+"PPE is the last line of defence, but it must always be used.",
+"Jack stands, not jacks, hold the vehicle up.",
+"Brake fluid irritates and damages paint.",
+"Brake dust is treated as hazardous and never blown off.",
+"Waste must be collected and disposed of properly."
+],
+"examples": [
+"A learner wipes a drop of brake fluid off a fender with a dry cloth, which spreads it and damages the paint. Water and prompt cleaning would have been better.",
+"A technician blows dust off a drum with an air gun and fills the workshop with dust. An enclosed brake washer would have prevented exposure.",
+"A vehicle is raised with only a jack and a wheel is removed. The vehicle shifts. Jack stands and chocks would have prevented it."
+],
+"safety": [
+"Do not start a task if you do not have the correct protective equipment.",
+"If you are unsure about any step, stop and ask a qualified supervisor."
+],
+"practice": [
+"Complete the Workshop Safety Checklist for a workspace of your choice and note anything that needs improvement.",
+"Find the nearest approved collection point for used automotive fluids in your area."
+],
+"check": [
+{"q": "Why should compressed air not be used on brake parts?", "a": "It puts hazardous dust into the air where it can be breathed."},
+{"q": "What should you use to support a raised vehicle?", "a": "Jack stands placed at approved support points."},
+{"q": "What should you do if brake fluid touches your skin?", "a": "Wash with soap and water."},
+{"q": "Why should brake fluid containers be kept closed?", "a": "Most brake fluid absorbs moisture from the air."},
+{"q": "How should used brake fluid be disposed of?", "a": "In a labelled, sealed container and through an approved collection according to local rules."}
+],
+"summary": [
+"Use PPE every time.",
+"Lift, support and chock vehicles correctly.",
+"Treat dust and fluid as hazards.",
+"Keep the workshop clean and dispose of waste responsibly."
+]
+}

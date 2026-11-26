@@ -1,0 +1,106 @@
+{
+"id": 8,
+"title": "Brake System Troubleshooting",
+"time": "60 min",
+"intro": "Troubleshooting means finding the real cause of a symptom, not guessing and replacing parts. This chapter gives a logical method and a reference table linking common symptoms to causes, inspection methods and recommended actions.",
+"objectives": [
+"Apply a logical diagnostic method to brake complaints.",
+"Link common symptoms to possible causes.",
+"Choose appropriate inspection methods.",
+"Recommend safe next actions without replacing parts blindly."
+],
+"sections": [
+{
+"h": "A logical diagnostic method",
+"blocks": [
+{"ol": [
+"**Listen to the complaint.** Ask when it happens (cold, hot, hard braking, low speed), which pedal feel, which noise, how long it has been present.",
+"**Verify the symptom** safely. Do not drive a vehicle you suspect has unsafe brakes.",
+"**Check the basics:** fluid level, tires, obvious leaks, warning lights.",
+"**Inspect visually** all wheels and components using the inspection cards in Chapter 6.",
+"**Test and measure** instead of guessing: thickness, runout, temperature differences, pedal holding.",
+"**Form a hypothesis** that explains all the symptoms, and test it.",
+"**Repair the cause,** not just the symptom, in axle sets where required.",
+"**Verify the repair** with a final inspection and road test."
+]},
+{"warn": "Replacing parts without finding the cause costs money, wastes time and can leave the real fault in place. For example, new pads on a sticking caliper will also wear unevenly and fail early."},
+{"tip": "Ask: what is different between the good side and the faulty side? That question often points directly at the cause."}
+]
+},
+{
+"h": "Reading pedal feel",
+"blocks": [
+{"table": {"h": ["Pedal feel", "Usually points to"], "r": [
+["Soft or spongy", "Air or moisture in the fluid, flexing hose, brake out of adjustment, drum brake adjuster fault."],
+["Sinking slowly under steady pressure", "Internal master cylinder leak or an external hydraulic leak."],
+["Hard, high effort", "Booster or vacuum supply fault, seized caliper pistons, contaminated friction material."],
+["Pulsing", "Rotor thickness variation or runout, drum out of round (or ABS action during hard braking, which is normal)."],
+["Low or long travel", "Worn pads or shoes, out-of-adjustment drum brakes, air in the system."]
+]}}
+]
+},
+{
+"h": "Troubleshooting reference table",
+"blocks": [
+{"table": {"h": ["Symptom", "Possible Cause", "Inspection Method", "Recommended Action"], "r": [
+["Squeaking brakes", "Worn pad wear indicators, glazed pads or rotor, missing or dry hardware, incorrect pads, dust or dirt.", "Inspect pad thickness and surface, hardware, shims and rotor surface.", "Clean, replace worn hardware or pads, lubricate specified contact points, bed in new pads."],
+["Grinding brakes", "Friction material worn through (metal on metal), debris between pad and rotor, damaged rotor or drum.", "Remove wheel and inspect pad backing plates, rotor and drum surfaces.", "Stop driving until inspected. Replace pads and damaged rotors or drums."],
+["Soft brake pedal", "Low fluid, air in the system, leak, worn pads, out-of-adjustment drums.", "Check fluid level, inspect for leaks, check the pedal while pressing and holding.", "Find and fix leaks, bleed the system, adjust or replace worn parts."],
+["Spongy brake pedal", "Air in the system, old moisture-laden fluid, soft or swelling hoses.", "Inspect fluid condition, hoses, and bleed to test.", "Bleed or replace fluid, replace defective hoses."],
+["Hard brake pedal", "Booster or vacuum fault, blocked vacuum hose, seized pistons, glazed pads.", "Check booster operation, vacuum hose, and caliper movement.", "Repair vacuum supply or booster; service seized calipers."],
+["Brake pedal sinking", "Internal master cylinder leak, external leak at lines, hoses, calipers or wheel cylinders.", "Hold the pedal under steady pressure and observe; check for leaks at all points.", "Do not drive. Repair or replace the master cylinder or leaking parts and bleed."],
+["Excessive pedal travel", "Worn pads or shoes, drum brakes out of adjustment, air, retracted piston.", "Measure pedal travel, inspect pads, shoes and adjusters, pump the pedal to see if it firms.", "Replace worn parts, adjust brakes, bleed if air is present."],
+["Vehicle pulling during braking", "Sticking caliper, collapsed hose, contaminated pads or shoes, uneven tire pressure, suspension faults.", "Compare left and right brake temperature, pad wear, hose condition and tires.", "Repair the pulling side's cause, replace contaminated friction parts as an axle set, correct tire pressure."],
+["Brake vibration", "Rotor thickness variation or runout, out-of-round drum, loose wheel nuts, worn suspension parts, uneven wheel nut torque.", "Measure rotor runout and thickness, check wheel nuts, inspect suspension.", "Resurface or replace rotors or drums (within limits), tighten wheel nuts to specification."],
+["Brake fluid leakage", "Failed seals, damaged lines or hoses, loose fittings, cracked reservoir, failing wheel cylinder or caliper.", "Clean the area and inspect with a light after pressing the pedal to find the source.", "Do not drive. Repair the source, replace contaminated parts and bleed."],
+["Brake overheating", "Sticking caliper or piston, seized slide pins, parking brake dragging, blocked hose, over-adjusted drums.", "After a short drive, compare wheel temperature carefully; check for dragging by turning the wheel by hand with the vehicle supported.", "Free or replace seized parts, release or adjust the parking brake, replace collapsed hoses."],
+["Uneven brake pad wear", "Sticking caliper piston or slide pins, tapered wear, mismatched pads, hardware faults.", "Measure pad thickness at several points; compare inner and outer, left and right.", "Clean and lubricate slide pins, service or replace the caliper, replace pads and hardware."],
+["Parking brake failure", "Stretched or seized cables, worn rear linings, out-of-adjustment mechanism, seized levers, electric parking brake fault.", "Check lever or pedal travel, cable movement and rear brake condition.", "Adjust or replace cables, service or replace rear brake parts. Follow service mode for electric systems."],
+["Brake warning light", "Low fluid, parking brake switch or cable, hydraulic circuit imbalance, failed switch, worn pads with sensors.", "Check parking brake release, fluid level and leaks, then check the wiring and switch.", "Stop if the light stays on while driving. Repair the leak or fault and refill fluid with the correct type."],
+["ABS warning light", "Wheel speed sensor fault, damaged tone ring, wiring fault, low voltage, ABS unit fault.", "Read fault codes with a scan tool; inspect sensors, wiring and tone rings.", "Repair the specified fault, clear codes, test. Drive carefully until repaired."]
+]}}
+]
+},
+{
+"h": "Putting the method to work: examples",
+"blocks": [
+{"h3": "Example A: Pulling to the right under braking"},
+"Check tire pressures first. Then inspect the front brakes. The vehicle pulls toward the side that brakes harder. A sticking caliper or a collapsed hose on the opposite side can reduce braking there, so the stronger side pulls the vehicle. Compare pad wear, wheel temperatures and hose condition on both sides. Repair the cause on the faulty side and inspect the other side of the axle as well.",
+{"h3": "Example B: Squeal only in the first few stops"},
+"Light squeal after moisture or overnight is often surface corrosion that clears after a few stops. If it persists, check pad wear indicators, glazing and hardware."
+]
+}
+],
+"concepts": [
+"Diagnose first and repair second.",
+"Compare good and bad sides.",
+"The pedal tells a story: soft, sinking, hard, and pulsing mean different things.",
+"A leak is never acceptable.",
+"Verify every repair with a road test."
+],
+"examples": [
+"A learner replaces pads on a car that pulls to one side, but the pull remains. The real fault was a collapsed brake hose on the pulling wheel.",
+"A vehicle has a spongy pedal after a hose replacement. The system was not bled, so air remains in the lines.",
+"The ABS light appears after replacing a wheel bearing. The wheel speed sensor was damaged or not reconnected correctly."
+],
+"safety": [
+"Do not road-test a vehicle with a sinking pedal or a known leak.",
+"Use safe, quiet roads and low speeds for brake tests, and keep the test short."
+],
+"practice": [
+"Pick three symptoms from the table and write the first three checks you would carry out for each.",
+"Make a flow chart for diagnosing a soft pedal."
+],
+"check": [
+{"q": "What does a slowly sinking pedal under steady pressure suggest?", "a": "An internal master cylinder leak or an external leak in the hydraulic system."},
+{"q": "Why is it a bad idea to replace parts without diagnosing?", "a": "The real cause may remain, and money and time are wasted."},
+{"q": "What is a common cause of uneven pad wear?", "a": "Sticking caliper pistons or slide pins."},
+{"q": "What does a hard pedal point to?", "a": "A booster or vacuum fault, seized pistons or contaminated friction material."},
+{"q": "What is the final step after any brake repair?", "a": "Verify the repair with a final inspection and a careful road test."}
+],
+"summary": [
+"Use the eight-step method every time.",
+"Use pedal feel and noise to narrow the possibilities.",
+"Repair the cause and verify the result."
+]
+}

@@ -1,0 +1,214 @@
+{
+"id": 9,
+"title": "Brake Maintenance Checklists",
+"time": "30 min",
+"intro": "Checklists turn good intentions into consistent habits. Each list below can be ticked on screen (your ticks are saved on this device), reset for reuse, and printed. Use them together with the vehicle's service manual.",
+"objectives": [
+"Use checklists to organise a brake inspection.",
+"Record findings clearly and consistently.",
+"Print or reset checklists for reuse."
+],
+"sections": [
+{
+"h": "How to use the checklists",
+"blocks": [
+"Tick each item as you complete it. Use the **Reset** button to clear a list and the **Print** button to print one list on its own. Write measurements and notes on the printed copy or in the documentation list.",
+{"info": "Ticks are stored only on your device. They are not sent anywhere."}
+]
+},
+{
+"h": "1. Pre-maintenance inspection",
+"blocks": [
+{"check": {"title": "Pre-Maintenance Inspection", "items": [
+"Service manual or specifications for the vehicle are available.",
+"Vehicle details recorded (make, model, year, mileage, identification).",
+"Customer or driver complaint recorded.",
+"Warning lights checked with the ignition on.",
+"Tire condition and pressures checked.",
+"Brake fluid level and condition noted.",
+"Pedal feel and parking brake feel noted.",
+"Test drive needed? Only done if the brakes are safe to drive.",
+"Tools, measuring equipment and replacement parts prepared.",
+"Work plan agreed with supervisor."
+]}}
+]
+},
+{
+"h": "2. Workshop safety inspection",
+"blocks": [
+{"check": {"title": "Workshop Safety Inspection", "items": [
+"PPE worn: safety glasses, gloves, safety footwear.",
+"Work area clean, dry and well lit.",
+"Vehicle on level ground, wheels chocked.",
+"Parking brake and transmission set (unless the task requires otherwise).",
+"Jack placed at the lift point.",
+"Jack stands placed and the vehicle shake-tested.",
+"Brake cleaner and fluid stored safely, no ignition sources nearby.",
+"No compressed air used on brake dust.",
+"Fire extinguisher and first aid kit accessible.",
+"Waste containers prepared for fluid, rags and dust."
+]}}
+]
+},
+{
+"h": "3. Brake system visual inspection",
+"blocks": [
+{"check": {"title": "Brake System Visual Inspection", "items": [
+"Fluid reservoir level between MIN and MAX.",
+"Fluid colour and clarity noted.",
+"Master cylinder and booster area dry.",
+"Brake lines checked along their full length: no leaks, rust or damage.",
+"Flexible hoses checked: no cracks, bulges, rubbing or leaks.",
+"Calipers and wheel cylinders dry.",
+"Dust boots intact.",
+"Wheel speed sensor wiring checked for damage.",
+"Parking brake cables and boots checked.",
+"Findings recorded."
+]}}
+]
+},
+{
+"h": "4. Disc brake inspection",
+"blocks": [
+{"check": {"title": "Disc Brake Inspection", "items": [
+"Wheel removed using the correct sequence.",
+"Pad thickness measured and compared with the minimum in the manual.",
+"Inner and outer pad compared. Left and right compared.",
+"Pad surface checked for glazing, cracks and contamination.",
+"Shims, clips and anti-rattle hardware checked.",
+"Caliper slide pins move freely, boots intact.",
+"Caliper piston dry, boot undamaged.",
+"Rotor surface checked for scoring, cracks and heat marks.",
+"Rotor thickness measured and compared with the minimum.",
+"Rotor runout measured and compared with the limit.",
+"Bleeder screw and hose connection dry.",
+"Findings recorded."
+]}}
+]
+},
+{
+"h": "5. Drum brake inspection",
+"blocks": [
+{"check": {"title": "Drum Brake Inspection", "items": [
+"Drum removed following the manual.",
+"Drum surface checked for scoring, cracks and hard spots.",
+"Drum inside diameter measured and compared with the maximum.",
+"Shoe lining thickness measured and compared with the minimum.",
+"Linings dry, with no contamination.",
+"Wheel cylinder boots dry and pistons free.",
+"Return springs and hold-down springs in good condition.",
+"Adjuster turns freely and operates correctly.",
+"Parking brake lever and cable operate smoothly.",
+"Backing plate contact points clean.",
+"Findings recorded."
+]}}
+]
+},
+{
+"h": "6. Brake fluid inspection",
+"blocks": [
+{"check": {"title": "Brake Fluid Inspection", "items": [
+"Vehicle on level ground.",
+"Reservoir area wiped before the cap is removed.",
+"Level checked and noted.",
+"Colour and clarity checked against fresh fluid.",
+"Fluid type matches the manufacturer's specification.",
+"Fluid tested using an approved method if available.",
+"Reservoir cap and seal condition checked.",
+"Cap refitted securely.",
+"Decision recorded: no action, top up, or replace."
+]}}
+]
+},
+{
+"h": "7. Parking brake inspection",
+"blocks": [
+{"check": {"title": "Parking Brake Inspection", "items": [
+"Lever or pedal travel counted and compared with the manual.",
+"Warning light responds when the parking brake is applied and released.",
+"Cables and boots checked for rust, fraying and sticking.",
+"Equaliser and linkage move freely.",
+"Rear wheels turn freely when released.",
+"Holding ability checked safely on a gentle slope.",
+"Adjustment made only following the manual.",
+"Electric parking brake service mode used where required.",
+"Findings recorded."
+]}}
+]
+},
+{
+"h": "8. Final inspection",
+"blocks": [
+{"check": {"title": "Final Inspection", "items": [
+"All fasteners tightened to the manual's torque values.",
+"Wheel nuts tightened in the correct sequence to the specified torque.",
+"No leaks at any fitting, hose or bleeder.",
+"Fluid level correct.",
+"Pedal pumped until firm before moving the vehicle.",
+"Wheels turn freely with no drag.",
+"Parking brake works and releases fully.",
+"Warning lights behave normally.",
+"Tools and materials removed from the vehicle.",
+"Careful road test completed in a safe area.",
+"No noise, pulling or vibration noted.",
+"Vehicle cleaned and work area cleaned."
+]}}
+]
+},
+{
+"h": "9. Maintenance documentation",
+"blocks": [
+{"check": {"title": "Maintenance Documentation", "items": [
+"Date and technician or learner name recorded.",
+"Vehicle details and mileage recorded.",
+"Complaint or reason for service recorded.",
+"All measurements recorded (pad, shoe, rotor, drum) with the specification used.",
+"Parts replaced listed, with part numbers if available.",
+"Fluid type and amount used recorded.",
+"Torque values used recorded and the source named.",
+"Findings and recommendations for the owner listed.",
+"Road test result recorded.",
+"Supervisor sign-off obtained."
+]}},
+{"table": {"h": ["Record field", "Your entry"], "r": [
+["Date", ""],
+["Vehicle (make / model / year)", ""],
+["Mileage", ""],
+["Complaint", ""],
+["Front pads (L / R) measured", ""],
+["Rear pads or shoes (L / R) measured", ""],
+["Rotor or drum measurements", ""],
+["Fluid condition", ""],
+["Parts replaced", ""],
+["Recommendations", ""]
+]}}
+]
+}
+],
+"concepts": [
+"A checklist makes work repeatable and prevents forgotten steps.",
+"Measurements are always recorded together with the specification.",
+"Documentation protects the owner, the learner and the workshop."
+],
+"examples": [
+"A learner skips the final inspection, and a bleeder screw is left slightly open. The pedal is soft on the road. The final checklist would have caught it.",
+"Two weeks later, a customer asks what was done to their brakes. The documentation list shows exactly which parts were replaced and what the measurements were."
+],
+"safety": [
+"A checklist never replaces judgement. If something looks wrong, stop and ask."
+],
+"practice": [
+"Print or fill in the Disc Brake Inspection list for a vehicle you can observe under supervision.",
+"Rewrite one checklist to add two items that are specific to a vehicle you know."
+],
+"check": [
+{"q": "Why record the specification next to each measurement?", "a": "So the reader knows what the measurement was compared to and can verify the decision."},
+{"q": "Which checklist should be completed before the vehicle is driven after repair?", "a": "The final inspection."},
+{"q": "Where are your ticks stored in this app?", "a": "Only on your own device."}
+],
+"summary": [
+"Use all nine checklists as a system, from pre-maintenance to documentation.",
+"Record measurements with their specifications.",
+"Reset and reuse the lists for every vehicle."
+]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "brake-system-study-guide",
+  "version": "1.0.0",
+  "description": "Automotive Brake System Maintenance: A Complete Beginner's Study Guide (independent educational PWA)",
+  "private": true,
+  "scripts": {
+    "start": "npx --yes serve . -l 8080",
+    "validate": "node -e \"const fs=require('fs');fs.readdirSync('data').forEach(f=>JSON.parse(fs.readFileSync('data/'+f)));console.log('All JSON valid')\""
+  },
+  "license": "UNLICENSED"
+}

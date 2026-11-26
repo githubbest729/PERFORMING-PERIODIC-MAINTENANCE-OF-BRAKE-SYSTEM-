@@ -1,0 +1,75 @@
+{
+"id": 7,
+"title": "Periodic Brake Maintenance",
+"time": "75 min",
+"intro": "This chapter explains the general principles and sequence of periodic brake maintenance tasks. These are educational procedures only. Every vehicle has its own procedures, torque values, service limits and fluid specifications, and several operations require special equipment or qualified supervision.",
+"objectives": [
+"Describe the general sequence of periodic brake maintenance.",
+"Explain the purpose of each maintenance task.",
+"Identify which tasks require vehicle-specific data, special equipment or supervision.",
+"Describe the final inspection and road-test checks."
+],
+"sections": [
+{
+"h": "Read this first",
+"blocks": [
+{"warn": "These procedures are general and educational. They are not a repair manual for any specific vehicle. Specifications such as torque values, pad and rotor limits, fluid type and bleeding sequence must come from the manufacturer's service manual. Brake work done incorrectly can cause a crash. Practice only under qualified supervision."},
+{"table": {"h": ["Label", "Meaning"], "r": [
+["GENERAL", "A general principle suitable for learning and observation."],
+["SERVICE DATA", "Needs vehicle-specific data such as torque, limits or procedure from the service manual."],
+["SUPERVISED", "Should only be done under qualified supervision, often with special equipment."]
+]}}
+]
+},
+{
+"h": "Maintenance procedures",
+"blocks": [
+{"proc": {"title": "1. Preparation and brake cleaning", "level": "SERVICE DATA", "why": "Clean parts reveal leaks and wear, and prevent contamination of friction surfaces. Dust is hazardous, so cleaning must control it.", "steps": ["Complete the workshop safety checklist and wear PPE.", "Lift, support and chock the vehicle correctly and remove the wheel, following the manual's wheel nut sequence.", "Do not blow dust off with compressed air.", "Clean using an enclosed brake washer, a suitable dust vacuum or an approved wet method.", "Use brake cleaner on metal parts only, as the manufacturer directs, and keep it off rubber parts where it may damage them.", "Let parts dry before reassembly."]}},
+{"proc": {"title": "2. Brake pad inspection (disc brakes)", "level": "SERVICE DATA", "why": "Pads wear continuously. Replacing them at the correct time prevents rotor damage and loss of braking.", "steps": ["Remove the wheel and inspect the pads visually.", "Measure remaining friction material and compare with the minimum from the manual.", "Compare inner and outer pad and left and right sides.", "Check for cracks, glazing, uneven wear, contamination and loose pads.", "Check the shims, clips and anti-rattle hardware.", "Record the results. Replace pads in axle sets when needed."]}},
+{"proc": {"title": "3. Brake shoe inspection (drum brakes)", "level": "SERVICE DATA", "why": "Drum linings wear more slowly but still must be checked, especially for contamination.", "steps": ["Remove the drum as the manual describes, and back off the adjuster if required.", "Inspect the linings for thickness, cracks, glazing and contamination.", "Compare with the manufacturer's minimum.", "Check the wheel cylinder for leaks and the backing plate for wetness.", "Check the springs, clips, adjuster and parking brake lever.", "Record results and replace shoes in axle sets if needed."]}},
+{"proc": {"title": "4. Brake disc inspection", "level": "SERVICE DATA", "why": "A worn, cracked or warped disc causes vibration and poor braking.", "steps": ["Inspect both faces for scoring, cracks, heat marks and rust.", "Feel for a ridge at the edge.", "Measure thickness in several places using a micrometer. Compare with the minimum from the disc or manual.", "Measure runout with a dial indicator on a properly secured disc, following the manual.", "Resurface only if the disc will remain above its minimum thickness; otherwise replace in axle pairs."]}},
+{"proc": {"title": "5. Brake drum inspection", "level": "SERVICE DATA", "why": "A drum that is scored, out-of-round or oversized can cause poor braking, pulling and vibration.", "steps": ["Inspect the friction surface for scoring, cracks, hard spots and contamination.", "Measure inside diameter at several places and compare with the maximum diameter.", "Check the mounting face and wheel studs.", "Machine within the limit or replace if beyond it."]}},
+{"proc": {"title": "6. Brake hardware inspection", "level": "GENERAL", "why": "Springs, clips, shims and pins keep the parts positioned and quiet. Worn hardware causes noise and uneven wear.", "steps": ["Inspect caliper slide pins and boots for corrosion, damage and free movement.", "Inspect pad retaining clips, shims and anti-rattle springs.", "Inspect drum brake springs, hold-down pins and the adjuster.", "Replace worn, bent or corroded hardware, often with a hardware kit."]}},
+{"proc": {"title": "7. Brake fluid inspection", "level": "GENERAL", "why": "Fluid condition affects braking performance and internal part life.", "steps": ["Check the level on a level surface.", "Check colour and clarity.", "Use an approved fluid test method, if available.", "Record the result and plan replacement if needed."]}},
+{"proc": {"title": "8. Brake fluid replacement", "level": "SUPERVISED", "why": "Fluid that has absorbed moisture or been overheated reduces braking performance and can corrode parts.", "steps": ["Confirm fluid type and the replacement interval in the manual.", "Wear PPE and protect painted surfaces.", "Use new fluid from a sealed container and never reuse old fluid.", "Replace fluid through the bleeding process, starting at the bleeder specified by the manufacturer.", "Keep the reservoir topped up so air does not enter.", "Dispose of old fluid in an approved way."]}},
+{"proc": {"title": "9. Brake bleeding", "level": "SUPERVISED", "why": "Air in the system compresses and causes a spongy pedal. Bleeding also removes old fluid.", "steps": ["Confirm the method and bleeding sequence in the manual (some ABS vehicles need a scan tool).", "Fit a clear tube to the bleeder screw and place the end in a container.", "Use a bleeding method approved for the vehicle (two-person, vacuum, one-way valve, or pressure).", "Open and close the bleeder as the method requires, keeping the reservoir filled.", "Close the bleeder screw before releasing the pedal, where this applies.", "Continue until fluid flows free of bubbles, then tighten the bleeder screw to specification.", "Check the pedal feel and fluid level, and check for leaks."]}},
+{"proc": {"title": "10. Parking brake inspection", "level": "GENERAL", "why": "The parking brake must hold the vehicle and release fully.", "steps": ["Check lever or pedal travel and compare with the manual.", "Inspect cables, boots and equaliser for rust, fraying or sticking.", "Check that the rear wheels turn freely when the brake is released.", "Test holding on a gentle slope with care, ready to use the service brakes."]}},
+{"proc": {"title": "11. Parking brake adjustment", "level": "SERVICE DATA", "why": "Stretch and wear change the travel and holding force of the parking brake.", "steps": ["Confirm the adjustment procedure and the correct travel in the manual.", "Make sure the rear service brakes are in good condition and properly adjusted first.", "Adjust at the cable or adjuster as specified.", "Release and check the wheels turn freely with no drag.", "Test the holding ability."]}},
+{"proc": {"title": "12. Lubrication of specified brake contact points", "level": "SERVICE DATA", "why": "Correct lubrication prevents seizure and noise. Incorrect lubrication, or lubricant on friction surfaces, can cause brake failure.", "steps": ["Find in the manual which points need lubrication and which lubricant to use.", "Typical points include slide pins and pad contact points on the caliper bracket, and backing plate contact pads.", "Apply a thin layer only where specified.", "Never let lubricant touch friction material, rotors or drum friction surfaces.", "Wipe off any excess."]}},
+{"proc": {"title": "13. Final brake system inspection", "level": "GENERAL", "why": "It confirms the work is complete and safe before the vehicle is driven.", "steps": ["Check that all fasteners are tightened to the manual's torque values, and the wheel nuts are tightened in sequence.", "Check that the fluid level is correct and there are no leaks.", "With the vehicle still raised, check the wheels turn freely.", "Press the pedal several times until firm before moving the vehicle.", "Carry out a slow, safe road test in a safe area, checking pedal feel, noise, pulling, parking brake and warning lights.", "Record all work and measurements, and follow the manufacturer's bedding-in instructions for new friction parts."]}}
+]
+}
+],
+"concepts": [
+"The service manual decides the procedure, torque, limits and fluid.",
+"Cleaning must control dust.",
+"Always service brakes in axle sets.",
+"Never allow lubricant on friction surfaces.",
+"A final inspection and careful road test close every job."
+],
+"examples": [
+"After a pad replacement, a vehicle has a long pedal at first. Pumping the pedal to seat the pistons before driving is part of the final inspection.",
+"New pads squeal because the slide pins were not cleaned and lubricated. Hardware inspection would have caught it.",
+"A technician puts grease on a rotor face by mistake. The surface must be cleaned thoroughly before the vehicle is driven."
+],
+"safety": [
+"Never drive the vehicle until the pedal is firm and all brake work has been checked.",
+"If you are not sure of any step, stop and consult the service manual or a supervisor."
+],
+"practice": [
+"Choose any task from this chapter and write down which items of data you would need from a service manual before doing it.",
+"Write a one-page plan for a brake inspection visit using the proc labels GENERAL, SERVICE DATA and SUPERVISED."
+],
+"check": [
+{"q": "Why should pads and shoes be replaced in axle sets?", "a": "Left and right brakes must work evenly. Replacing one side only can cause pulling and uneven braking."},
+{"q": "Why must lubricant never touch friction surfaces?", "a": "It reduces friction and braking performance and can cause brake failure."},
+{"q": "What should be done before driving after brake work?", "a": "Pump the pedal until firm, check for leaks and fluid level, and carry out a careful road test."},
+{"q": "Where do torque values and limits come from?", "a": "The vehicle manufacturer's service manual."},
+{"q": "Why is fluid replaced periodically?", "a": "Fluid absorbs moisture and degrades with heat, which reduces performance and causes corrosion."}
+],
+"summary": [
+"Maintenance follows a logical sequence from preparation to final inspection.",
+"Some tasks are general, others need service data or supervision.",
+"Records and careful testing complete every job."
+]
+}

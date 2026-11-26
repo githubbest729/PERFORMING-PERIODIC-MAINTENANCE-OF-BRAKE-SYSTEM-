@@ -1,0 +1,142 @@
+{
+"id": 1,
+"title": "Introduction to Automotive Brake Systems",
+"time": "45 min",
+"intro": "Every time you press the brake pedal, a chain of mechanical and hydraulic parts turns a small effort from your foot into enough friction to slow a vehicle weighing more than a tonne. This chapter builds the foundation for everything else in the guide: what the brake system is, how it works, and why keeping it in good condition is a safety matter, not just a maintenance task.",
+"objectives": [
+"Describe what an automotive brake system is and why it is essential.",
+"Explain the sequence of events from pressing the pedal to the vehicle slowing down.",
+"Explain friction, braking force, heat and stopping distance in simple terms.",
+"Distinguish service brakes from parking brakes.",
+"Distinguish disc brakes from drum brakes.",
+"Explain why regular brake maintenance matters."
+],
+"sections": [
+{
+"h": "What is an automotive brake system?",
+"blocks": [
+"The brake system is the group of components that lets the driver **slow down, stop, and hold the vehicle in place**. It works by converting the vehicle's motion energy (kinetic energy) into heat through friction, and then releasing that heat into the surrounding air.",
+"Most passenger vehicles use a **hydraulic** brake system: the driver's foot force is transmitted through brake fluid to the brakes at each wheel. A separate **parking brake** (often called the handbrake) normally uses a mechanical cable or an electric actuator to hold the vehicle when it is parked."
+]
+},
+{
+"h": "Why the brake system is essential",
+"blocks": [
+{"ul": [
+"**Stopping in an emergency.** The brakes are the primary way a driver avoids a collision.",
+"**Controlling speed.** Brakes manage speed on downhill roads and in traffic, not only when stopping completely.",
+"**Holding the vehicle.** The parking brake keeps the vehicle from rolling when parked, especially on slopes.",
+"**Keeping the vehicle stable.** Modern systems such as ABS help the driver keep steering control during hard braking.",
+"**Roadworthiness.** A vehicle with defective brakes is unsafe for the driver, passengers and everyone else on the road."
+]},
+{"warn": "Brake defects directly affect vehicle safety. Never treat a brake warning sign, a soft pedal, or a fluid leak as something to ignore until later."}
+]
+},
+{
+"h": "How braking works, step by step",
+"blocks": [
+{"ol": [
+"The driver **presses the brake pedal**. The pedal acts as a lever and increases the force applied by the foot.",
+"The **brake booster** (vacuum or electro-hydraulic) multiplies that force so the driver does not need to push extremely hard.",
+"The **master cylinder** converts the pedal push into **hydraulic pressure** in the brake fluid.",
+"The pressure travels through **brake lines and flexible hoses**. Brake fluid is practically incompressible, so pressure moves quickly and equally through the circuit (this follows Pascal's principle).",
+"At each wheel, the pressure pushes a **caliper piston** (disc brakes) or **wheel cylinder pistons** (drum brakes).",
+"The pistons press **friction material** (brake pads or brake shoes) against a spinning **disc/rotor** or **drum** that turns with the wheel.",
+"Friction slows the wheel. The tire's grip on the road then slows the whole vehicle.",
+"When the pedal is released, pressure drops and the pads or shoes move away from the rotor or drum, with help from seals and return springs."
+]},
+{"diagram": "hydraulic", "cap": "Simplified hydraulic brake circuit: pedal, booster, master cylinder, lines, and the brakes at the wheels."}
+]
+},
+{
+"h": "Friction, braking force, heat and stopping distance",
+"blocks": [
+{"table": {"h": ["Term", "Simple meaning", "Why it matters"], "r": [
+["Friction", "The resistance created when two surfaces rub together.", "Friction between pads/shoes and rotor/drum is what slows the wheel. Friction between tire and road is what slows the vehicle."],
+["Braking force", "The force that opposes the vehicle's motion when the brakes are applied.", "It depends on how hard the friction material is pressed and on how well the tires grip the road."],
+["Heat", "The form that the vehicle's motion energy takes when it is absorbed by the brakes.", "Brakes get very hot. Too much heat can cause brake fade, boiled fluid, or damaged parts."],
+["Stopping distance", "The total distance travelled from the moment the driver sees a hazard until the vehicle is stopped.", "It is the sum of reaction distance (before the driver brakes) and braking distance (after the brakes are applied)."]
+]}},
+"**Speed matters more than most people expect.** The energy a vehicle carries rises with the **square of its speed**. Doubling the speed means roughly four times the energy for the brakes to remove, and roughly four times the braking distance under the same conditions.",
+"Stopping distance is also affected by vehicle load, tire condition, road surface (dry, wet, loose), and the **condition of the brake system**. Worn pads, contaminated friction surfaces, old fluid or a leak all increase stopping distance.",
+{"tip": "Think of the brakes as an energy converter. Every stop turns motion into heat. The faster or heavier the vehicle, the more heat the brakes must handle."}
+]
+},
+{
+"h": "Service brakes and parking brakes",
+"blocks": [
+{"table": {"h": ["Feature", "Service brakes", "Parking brake"], "r": [
+["Purpose", "Slow and stop the vehicle while driving.", "Hold the vehicle stationary when parked; may serve as an emergency back-up."],
+["Operation", "Hydraulic, operated by the brake pedal.", "Usually mechanical (cable and levers) or electric (electric parking brake). Operated by a lever, pedal or switch."],
+["Wheels", "All four wheels (on most vehicles).", "Usually the rear wheels only (some vehicles use the transmission or other designs)."],
+["Typical failure", "Soft pedal, leaks, long stopping distance.", "Will not hold on a slope, lever travels too far, brakes drag after release."]
+]}}
+]
+},
+{
+"h": "Disc brakes and drum brakes",
+"blocks": [
+"Both designs use friction, but they arrange the parts differently.",
+{"table": {"h": ["Feature", "Disc brake", "Drum brake"], "r": [
+["Rotating part", "Disc (rotor) that turns with the wheel.", "Drum that surrounds the brake parts and turns with the wheel."],
+["Friction parts", "Two brake pads squeezed on both sides of the disc by a caliper.", "Two brake shoes pushed outward against the inside of the drum by a wheel cylinder."],
+["Cooling", "Disc is exposed to air, so it sheds heat well.", "Parts are enclosed, so heat escapes more slowly."],
+["Typical use", "Front wheels on nearly all vehicles; rear wheels on many.", "Rear wheels on many smaller or lower-cost vehicles."],
+["Inspection", "Pads and disc are generally easier to see.", "Drum usually must be removed to see the shoes and hardware."]
+]}},
+{"diagram": "disc", "cap": "Disc brake: the caliper squeezes the pads against both faces of the rotor."},
+{"diagram": "drum", "cap": "Drum brake: the wheel cylinder pushes the shoes outward against the inside of the drum."}
+]
+},
+{
+"h": "Why regular brake maintenance matters",
+"blocks": [
+{"ul": [
+"Friction material **wears away** with every stop and must be checked before it is worn out.",
+"Brake fluid **absorbs moisture over time** (in most common types), which lowers its resistance to heat and can cause internal corrosion.",
+"Rubber seals, hoses and boots **age and crack**, even if the vehicle is not driven much.",
+"Moving parts such as sliding pins, adjusters and parking brake cables can **seize or corrode**.",
+"Small problems found early are **cheaper and safer** to correct than failures found on the road.",
+"Regular inspection gives a **record** that shows how fast parts are wearing."
+]},
+"Maintenance intervals are set by the vehicle manufacturer and depend on driving conditions. Always follow the vehicle's service manual."
+]
+}
+],
+"concepts": [
+"A brake system turns motion energy into heat by friction.",
+"Hydraulic pressure carries the driver's effort to every wheel at the same time.",
+"Disc brakes squeeze pads on a rotor; drum brakes push shoes outward against a drum.",
+"Service brakes stop the vehicle; the parking brake holds it.",
+"Doubling speed roughly quadruples braking energy and braking distance.",
+"Maintenance finds wear and leaks before they become failures."
+],
+"examples": [
+"A driver notices the vehicle now needs a longer distance to stop than it did a year ago. Worn pads, old fluid, or glazed surfaces could all be reasons, so a brake inspection is needed.",
+"A vehicle parked on a slope rolls slightly even with the parking brake applied. This points to a parking brake adjustment or wear problem that needs inspection.",
+"After a long downhill drive, the pedal feels softer. Overheated brakes or fluid that has absorbed moisture can contribute to this, and the system should be inspected."
+],
+"safety": [
+"Brake faults can cause crashes. If you suspect a brake problem, do not drive the vehicle until it has been inspected by a qualified technician.",
+"Brake work should only be practised under qualified supervision until you have proper training and vehicle-specific service information."
+],
+"practice": [
+"Sit in a parked vehicle with the engine off and press the pedal several times. Notice how the pedal feels, then start the engine and notice what changes. (This is the booster at work in many vehicles.)",
+"Look through the wheel spokes of a parked vehicle and try to identify whether you can see a disc, a caliper, or only a drum."
+],
+"check": [
+{"q": "What happens to the vehicle's motion energy when the brakes are applied?", "a": "It is converted into heat by friction between the friction material and the rotor or drum."},
+{"q": "Why does brake fluid transmit force so well?", "a": "Brake fluid is practically incompressible and pressure is transmitted equally through the circuit."},
+{"q": "If speed doubles, what happens to the energy the brakes must remove?", "a": "It increases about four times."},
+{"q": "Name one difference between a disc brake and a drum brake.", "a": "A disc brake squeezes pads on a rotor; a drum brake pushes shoes outward inside a drum. Discs shed heat more easily."},
+{"q": "Which brake system normally holds the vehicle when parked?", "a": "The parking brake, usually mechanical or electric."}
+],
+"summary": [
+"The brake system converts motion energy to heat using friction.",
+"A hydraulic system transmits force from the pedal to each wheel through brake fluid.",
+"Stopping distance includes reaction distance and braking distance, and grows quickly with speed.",
+"Service brakes stop the vehicle, the parking brake holds it.",
+"Disc and drum brakes use different layouts but the same principle.",
+"Regular maintenance is a safety requirement."
+]
+}

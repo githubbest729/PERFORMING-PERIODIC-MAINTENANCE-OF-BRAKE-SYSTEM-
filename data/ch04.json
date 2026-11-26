@@ -1,0 +1,121 @@
+{
+"id": 4,
+"title": "Automotive Tools and Equipment",
+"time": "60 min",
+"intro": "Using the right tool correctly protects both you and the vehicle. This chapter introduces the tools used in brake inspection and maintenance, explains how to use each one, and lists the safety precautions that go with it.",
+"objectives": [
+"Identify common hand tools, measuring tools and lifting equipment.",
+"Explain the purpose of each tool.",
+"Describe proper use and safety precautions for each tool.",
+"Read a vernier caliper and micrometer scale in principle."
+],
+"sections": [
+{
+"h": "Tool reference table",
+"blocks": [
+{"table": {"h": ["Tool", "Purpose", "Proper use", "Safety precautions"], "r": [
+["Combination wrench", "Turns hex bolts and nuts; one end open, one end box.", "Use the box end first for tight fasteners. Pull the wrench toward you.", "Never use a pipe extension. Use the correct size to avoid rounding the fastener."],
+["Socket wrench / sockets", "Turns fasteners with better grip and access.", "Use a 6-point socket for tight or rusty bolts. Keep the socket fully seated.", "Do not use impact sockets on hand tools for torque or vice versa. Replace cracked sockets."],
+["Ratchet", "Speeds up turning of sockets.", "Select direction, push or pull smoothly.", "Do not use as a hammer. Do not use for final tightening."],
+["Torque wrench", "Tightens fasteners to a specified torque.", "Set to the manufacturer's value, pull slowly and smoothly until it clicks or indicates.", "Never use it to loosen. Store at the lowest setting if it is a click type. Torque values must come from the service manual."],
+["Screwdrivers", "Turn screws.", "Use the correct type and size of tip fully in the screw head.", "Do not pry or hit. Never hold small parts in the hand while turning."],
+["Pliers", "Grip, hold and cut.", "Use the right type (slip-joint, needle-nose, locking).", "Not a substitute for a wrench on fasteners."],
+["Brake spring pliers", "Remove and install drum brake return and hold-down springs.", "Grip the spring securely and control its tension while moving it.", "Springs can fly off. Wear eye protection and keep your face away."],
+["Brake adjustment tools", "Turn the star wheel adjuster of drum brakes.", "Insert in the access slot, turn to adjust per the service manual.", "Do not over-adjust. Make sure the wheel turns freely afterwards."],
+["Brake piston compression tools", "Push the caliper piston back into its bore for new pads.", "Use the tool (or a clamp) with an old pad to spread the load. Some rear pistons must be turned in, not pushed.", "Watch the reservoir level, which will rise. Never force a piston that does not move."],
+["Brake bleeding equipment", "Removes air and old fluid from the system.", "Use methods allowed by the manufacturer: two-person, one-way valve, vacuum or pressure bleeder.", "Brake fluid is harmful to skin, eyes and paint. Never let the reservoir run dry."],
+["Vernier caliper", "Measures thickness, diameter and depth.", "Close jaws on the part, lock, read the main scale plus vernier scale.", "Keep clean; do not use as a clamp or a scribe."],
+["Micrometer", "Measures with higher accuracy, such as rotor thickness.", "Close the spindle with the ratchet knob. Read the sleeve and thimble.", "Do not overtighten; store with the faces slightly apart."],
+["Dial indicator", "Measures small movements such as rotor runout.", "Mount on a stable base, set the tip against the rotor face, zero it, and turn the rotor slowly.", "Make sure the base cannot slip. Avoid damaging the tip."],
+["Floor jack", "Raises the vehicle.", "Position at the manufacturer's lift point. Raise smoothly.", "A jack is for lifting only, never for supporting."],
+["Jack stands", "Hold the raised vehicle securely.", "Place under approved support points, lower the vehicle gently onto them, check stability.", "Use a pair on level, hard ground. Never exceed rated load."],
+["Wheel chocks", "Prevent the vehicle from rolling.", "Place firmly against the wheels that remain on the ground, on both sides.", "Use on level ground whenever possible."]
+]}}
+]
+},
+{
+"h": "Using a torque wrench",
+"blocks": [
+"A torque wrench measures how much twisting force is applied to a fastener. Correct torque keeps wheels, calipers and brackets secure without stretching or breaking bolts.",
+{"ol": [
+"Find the specification in the **vehicle service manual** (do not guess or use a general chart).",
+"Set the wrench, and check the units (N·m or lb-ft).",
+"Make sure threads are clean, and lubricate or keep dry as the manual states.",
+"Pull smoothly. Stop at the click. Do not keep pulling.",
+"Tighten fasteners in the sequence specified (for wheel nuts, usually in a star pattern).",
+"Return a click-type wrench to its lowest setting when finished."
+]},
+{"warn": "Never invent a torque value. If you do not have the specification for the vehicle, do not finish the job."}
+]
+},
+{
+"h": "Reading measuring tools",
+"blocks": [
+"**Vernier caliper:** read the whole millimetres on the main scale to the left of the zero mark of the sliding scale. Then find the line on the sliding scale that lines up exactly with a main scale line; that line gives the fraction. Add them together.",
+"**Micrometer:** read the sleeve (whole mm and half mm marks showing), then add the thimble reading where its line meets the sleeve's centre line.",
+"**Dial indicator:** place it against the rotor face, zero it, and turn the rotor slowly. The difference between the highest and lowest reading is the runout. Compare it to the manufacturer's limit.",
+{"tip": "Always measure in several places around the rotor or drum. Compare the smallest reading with the manufacturer's minimum. Only the service manual gives the limits for your vehicle."}
+]
+},
+{
+"h": "Brake bleeding equipment",
+"blocks": [
+{"table": {"h": ["Method", "How it works", "Notes"], "r": [
+["Two-person manual", "One person pumps and holds the pedal, the other opens and closes the bleeder screw.", "Needs good communication. Do not push the pedal to the very end of its travel on old master cylinders."],
+["One-way valve bleeder", "A check valve on the bleeder screw lets fluid out, but not air back in.", "Can be done by one person. Watch the reservoir level."],
+["Vacuum bleeder", "Pulls fluid out at the bleeder screw.", "Check for air drawn around the screw threads."],
+["Pressure bleeder", "Pushes fluid in through the reservoir under low pressure.", "Needs the correct adapter cap."],
+["Scan tool assisted", "Uses a scan tool to cycle ABS valves to remove trapped air.", "Required on some ABS vehicles. Follow the manufacturer's procedure."]
+]}}
+]
+},
+{
+"h": "Lifting and supporting safely",
+"blocks": [
+{"ol": [
+"Park on a **level, firm surface**. Apply the parking brake (unless you are working on it) and place the transmission in park or first gear.",
+"**Chock** the wheels that stay on the ground.",
+"Slightly loosen the wheel nuts while the wheel is still on the ground.",
+"Place the jack at the **manufacturer's lift point**.",
+"Raise the vehicle, then place **jack stands** at the manufacturer's support points.",
+"Lower the vehicle onto the stands, and **shake-test** it gently to confirm it is stable.",
+"Only then remove the wheel and start the work."
+]},
+{"warn": "Never work under or beside a vehicle that is supported by a jack alone. Jacks can slip or fail. Use jack stands every time."}
+]
+}
+],
+"concepts": [
+"The correct tool reduces risk of damage and injury.",
+"Torque values come only from the service manual.",
+"Jacks lift. Stands support.",
+"Measuring tools require clean surfaces and careful reading.",
+"Spring tools and bleeding equipment require extra safety care."
+],
+"examples": [
+"A learner uses a combination wrench with a pipe as an extension and rounds the bolt head. A proper socket with the correct size would have avoided this.",
+"A rotor feels thin, but only a micrometer reading compared to the manufacturer's minimum gives a reliable answer.",
+"A technician opens a bleeder screw without watching the reservoir, and the reservoir runs dry, drawing air into the system."
+],
+"safety": [
+"Wear eye protection when using spring pliers and when cleaning parts.",
+"Inspect tools before use for cracks, wear and damage.",
+"Never use a jack as the only support for a vehicle."
+],
+"practice": [
+"Lay out pictures of the tools in this chapter and name each one.",
+"Practice reading a vernier caliper by measuring a coin or a bolt and writing the reading in millimetres."
+],
+"check": [
+{"q": "Why should a torque wrench never be used to loosen a fastener?", "a": "It can damage the calibration and give inaccurate readings later."},
+{"q": "What should the learner use to support a vehicle after lifting?", "a": "Jack stands placed at approved support points."},
+{"q": "What does a dial indicator measure on a brake rotor?", "a": "Runout, the wobble of the rotor face as it turns."},
+{"q": "Why must the reservoir be watched during bleeding?", "a": "If it runs dry, air enters the system."},
+{"q": "Where do torque values come from?", "a": "The vehicle manufacturer's service manual."}
+],
+"summary": [
+"Pick the right tool and size, and check it is in good condition.",
+"Torque, measurement limits and fluid type come from the service manual.",
+"Lifting always involves jack, stands and wheel chocks."
+]
+}

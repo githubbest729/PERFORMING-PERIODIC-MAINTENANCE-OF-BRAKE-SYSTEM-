@@ -1,0 +1,8 @@
+/* TEAM */
+Project: Automotive Brake System Maintenance: A Complete Beginner's Study Guide
+Site: https://githubbest729.github.io/PERFORMING-PERIODIC-MAINTENANCE-OF-BRAKE-SYSTEM-/
+
+/* SITE */
+Last update: 2026/11/26
+Standards: HTML5, CSS3, ES2018, Web App Manifest, Service Worker
+Notes: Independent educational resource. No tracking, no external dependencies.

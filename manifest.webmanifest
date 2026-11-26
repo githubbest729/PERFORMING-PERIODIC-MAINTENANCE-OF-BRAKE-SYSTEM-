@@ -1,0 +1,31 @@
+{
+  "id": "./",
+  "name": "Automotive Brake System Maintenance: A Complete Beginner's Study Guide",
+  "short_name": "Brake Guide",
+  "description": "Self-paced, offline-ready study guide to automotive brake systems: components, safety, inspection, maintenance, troubleshooting, checklists and quizzes.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#111827",
+  "theme_color": "#111827",
+  "categories": ["education", "reference"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    { "src": "screenshot-narrow.png", "sizes": "540x960", "type": "image/png", "form_factor": "narrow", "label": "Chapter list and progress" },
+    { "src": "screenshot-wide.png", "sizes": "1280x720", "type": "image/png", "form_factor": "wide", "label": "Study guide on desktop" }
+  ],
+  "shortcuts": [
+    { "name": "Checklists", "short_name": "Checklists", "url": "./#/ch/9", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Knowledge assessment", "short_name": "Quiz", "url": "./#/ch/11", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Glossary", "short_name": "Glossary", "url": "./#/ch/12", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

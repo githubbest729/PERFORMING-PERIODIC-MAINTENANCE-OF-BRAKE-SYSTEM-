@@ -1,0 +1,126 @@
+{
+"id": 3,
+"title": "Types of Brake Systems",
+"time": "45 min",
+"intro": "Modern vehicles combine several brake technologies. This chapter explains the operating principle, advantages and limitations of each, so you know which parts you are looking at and how they work together.",
+"objectives": [
+"Explain how hydraulic, disc and drum systems operate.",
+"Describe how a mechanical parking brake works.",
+"Explain the purpose of ABS and common electronic brake assistance systems.",
+"Compare the advantages and limitations of each system."
+],
+"sections": [
+{
+"h": "Hydraulic braking systems",
+"blocks": [
+"**Principle:** A liquid cannot be compressed in practice, so pressure applied at the master cylinder is transmitted through the fluid to every wheel brake. Because the pistons at the wheels have a different area than the master cylinder piston, the system can also multiply force.",
+{"ul": [
+"**Advantages:** even force distribution, smooth operation, easy routing of lines, can be split into two circuits for safety.",
+"**Limitations:** air or moisture in the fluid reduces performance; leaks cause loss of pressure; fluid requires periodic replacement."
+]},
+{"tip": "Most vehicles use a split circuit: either front/rear or diagonal (for example, front left with rear right). If one circuit fails, the other still works, but stopping distance becomes longer."}
+]
+},
+{
+"h": "Disc braking systems",
+"blocks": [
+"**Principle:** A caliper squeezes two pads against both faces of a rotating disc. Friction slows the disc and the wheel attached to it.",
+{"ul": [
+"**Advantages:** good heat dissipation, consistent performance, resists fade better than drums, easier to inspect and service, self-adjusting as pads wear.",
+"**Limitations:** pads wear and need replacing; brake dust; exposed surfaces can rust and score; discs can warp or develop thickness variation, causing vibration; parking brake integration is more complex on rear discs."
+]}
+]
+},
+{
+"h": "Drum braking systems",
+"blocks": [
+"**Principle:** A wheel cylinder pushes two shoes outward against the inside of a rotating drum. The drum's rotation can help drag the leading shoe into the drum (self-energising effect), increasing braking force.",
+{"ul": [
+"**Advantages:** compact, enclosed against dirt and water, effective as a parking brake, lower cost, long lining life on rear axles which handle less braking load.",
+"**Limitations:** hold heat inside, so they are more prone to fade; more parts to inspect; need adjustment on non-self-adjusting types; performance falls if the linings become wet or contaminated."
+]}
+]
+},
+{
+"h": "Mechanical parking brake systems",
+"blocks": [
+"**Principle:** A lever or pedal pulls a steel cable. The cable moves a lever at the rear brakes, spreading the shoes or applying the caliper piston mechanically, with no hydraulics involved.",
+{"ul": [
+"**Advantages:** works independently of hydraulic pressure; simple.",
+"**Limitations:** cables stretch or seize; requires periodic adjustment; weak holding power if the linings are worn or contaminated."
+]},
+"**Electric parking brakes** (EPB) replace the lever with a switch and electric motors at the rear brakes. They need specific procedures for service (such as putting the system into service mode before working on the rear brakes)."
+]
+},
+{
+"h": "ABS (Anti-lock Braking System)",
+"blocks": [
+"**Principle:** Wheel speed sensors tell a control module how fast each wheel is turning. If one wheel slows much faster than the others (about to lock), the module commands a hydraulic unit to quickly release, hold, and re-apply pressure to that wheel, several times a second.",
+{"ul": [
+"**Advantages:** keeps wheels rolling so the driver can steer during hard braking; can shorten stopping distance on many surfaces.",
+"**Limitations:** does not increase tire grip; may increase stopping distance on loose gravel or snow; cannot overcome speed that is too high for the conditions; depends on sensors and a clean electrical system."
+]},
+{"warn": "In an ABS emergency stop, press the pedal firmly and keep it pressed. The pulsing in the pedal is normal. Do not pump the pedal."}
+]
+},
+{
+"h": "Electronic brake assistance systems",
+"blocks": [
+"Many vehicles include electronic aids built on top of ABS:",
+{"table": {"h": ["System", "What it does", "Limitation"], "r": [
+["EBD (Electronic Brake-force Distribution)", "Adjusts brake pressure between front and rear (or sides) based on load and conditions.", "Works within physical grip limits."],
+["BA (Brake Assist)", "Detects a panic stop from how quickly the pedal is pressed and applies full braking force.", "Driver must still keep pressing the pedal."],
+["ESC / traction control", "Applies individual brakes and may reduce engine power to help prevent skids and wheelspin.", "Cannot defy physics; limited by tire grip."],
+["Autonomous emergency braking", "Uses radar or cameras to warn and brake automatically in some collision risks.", "Limited by sensor visibility, speed and conditions. It is a driver aid, not a substitute for attention."],
+["Regenerative braking (hybrid and electric vehicles)", "Uses the electric motor to recover energy while slowing, working with the friction brakes.", "Friction brakes still need inspection and may corrode if rarely used."]
+]}},
+"These systems depend on working base brakes. Worn pads or low fluid can make them less effective."
+]
+},
+{
+"h": "Comparison summary",
+"blocks": [
+{"table": {"h": ["System", "Basic principle", "Main strength", "Main limitation"], "r": [
+["Hydraulic", "Fluid transmits pressure.", "Even force at all wheels.", "Air, moisture and leaks."],
+["Disc", "Pads squeeze a rotor.", "Heat dissipation and consistency.", "Dust, rotor wear and noise."],
+["Drum", "Shoes push on a drum.", "Compact and enclosed.", "Heat retention and adjustment."],
+["Mechanical parking", "Cable applies rear brakes.", "Independent of hydraulics.", "Stretch and seizure."],
+["ABS", "Pulses pressure to prevent lock-up.", "Steering control in hard braking.", "Cannot add grip."],
+["Electronic assist", "Sensors and computers help the driver.", "Helps in emergencies.", "Needs healthy base brakes."]
+]}}
+]
+}
+],
+"concepts": [
+"Hydraulic systems rely on incompressible fluid and sealed circuits.",
+"Disc brakes shed heat well; drum brakes enclose the parts.",
+"A mechanical parking brake works without hydraulic pressure.",
+"ABS helps steering control but does not create extra grip.",
+"Electronic aids depend on healthy base brakes."
+],
+"examples": [
+"A pickup truck uses front discs and rear drums. The drums are inspected every service for wet linings, worn shoes and stuck adjusters.",
+"A driver brakes hard on a wet road, feels pulsing in the pedal and hears a buzz. The ABS is working normally.",
+"A hybrid vehicle's friction brakes are used lightly because of regenerative braking. The discs can develop surface rust and still need inspection."
+],
+"safety": [
+"Electric parking brakes need a service mode before rear brake work. Follow the manufacturer's procedure.",
+"ABS components must not be disassembled by beginners."
+],
+"practice": [
+"Find your vehicle owner's manual and read the sections about the brake system, ABS and parking brake.",
+"List which of the systems in this chapter your own vehicle (or a vehicle you know) has."
+],
+"check": [
+{"q": "Why can a hydraulic brake system be divided into two circuits?", "a": "So that a failure in one circuit does not remove all braking."},
+{"q": "What is the main limitation of ABS?", "a": "It cannot create more tire grip than the road allows and does not help if speed is too high."},
+{"q": "Why are drum brakes more prone to fade?", "a": "They enclose the parts, so heat escapes more slowly."},
+{"q": "What does a mechanical parking brake use to apply the brakes?", "a": "A cable and levers."},
+{"q": "What does EBD do?", "a": "It adjusts brake pressure between wheels based on load and conditions."}
+],
+"summary": [
+"Hydraulics carry the force; discs and drums create the friction.",
+"Parking brakes are usually mechanical or electric and separate from hydraulics.",
+"ABS and electronic aids improve control but depend on healthy base brakes."
+]
+}

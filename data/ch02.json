@@ -1,0 +1,134 @@
+{
+"id": 2,
+"title": "Brake System Components",
+"time": "60 min",
+"intro": "A brake system is made of many parts that each do one specific job. Knowing what each part does, where it sits, and how it fails lets you inspect and diagnose logically. This chapter follows the path of force from the driver's foot to the wheel.",
+"objectives": [
+"Name and locate the main components of a hydraulic brake system.",
+"Explain the purpose and operation of each component.",
+"Recognise the common failure symptoms of each component.",
+"Use the component reference table to connect a symptom with a likely area."
+],
+"sections": [
+{
+"h": "The big picture",
+"blocks": [
+"Components fall into four groups: **driver controls** (pedal, booster), **hydraulic parts** (master cylinder, reservoir, fluid, lines, hoses), **wheel brakes** (caliper, pads, rotor, drum, shoes, wheel cylinder, springs, adjuster), and **supporting systems** (parking brake, ABS, warning indicators).",
+{"diagram": "layout", "cap": "Layout of a typical vehicle brake system (simplified, top view)."}
+]
+},
+{
+"h": "Component reference table",
+"blocks": [
+{"table": {"h": ["Component", "Purpose", "Location", "How it operates", "Common failure symptoms"], "r": [
+["Brake pedal", "Lets the driver apply the brakes and acts as a lever.", "Driver footwell, linked to the booster pushrod.", "Pedal push moves the pushrod into the booster/master cylinder.", "Pedal sticks, feels loose, pedal bushings are noisy, pedal travel is wrong."],
+["Brake booster", "Multiplies pedal force so less effort is needed.", "On the firewall between the pedal and the master cylinder.", "Most use engine vacuum (or an electric pump) acting on a diaphragm to assist the pushrod.", "Hard pedal, hissing sound at the pedal, pedal effort changes when the engine is started."],
+["Master cylinder", "Turns pedal force into hydraulic pressure.", "Mounted on the front of the booster.", "Pistons push fluid into two separate circuits.", "Pedal sinks slowly, soft pedal, fluid leak at the rear of the cylinder or into the booster, warning light."],
+["Brake fluid reservoir", "Stores fluid and supplies the master cylinder.", "On top of the master cylinder.", "Fluid flows to the cylinder bores; level drops slowly as pads wear.", "Low level, cracked reservoir, leak at seals, contaminated fluid."],
+["Brake fluid", "Transmits hydraulic pressure and lubricates internal seals.", "Inside the whole hydraulic system.", "Practically incompressible; transmits pressure equally.", "Dark or dirty fluid, spongy pedal if air or moisture is present, corrosion inside parts."],
+["Hydraulic brake lines", "Carry fluid between the master cylinder and the wheels.", "Run along the body and chassis underneath the vehicle.", "Rigid steel tubing carries pressure to the wheel brakes.", "Leaks, rust, dents, kinks, dampness around fittings."],
+["Flexible brake hoses", "Allow movement between the body and the wheel while carrying fluid.", "Between rigid lines and the calipers or wheel cylinders.", "Reinforced rubber hose flexes with steering and suspension.", "Cracks, bulges, leaks, chafing, pulling to one side, brake dragging."],
+["Brake caliper", "Holds the pads and pushes them on the rotor.", "Straddles the rotor at the wheel.", "Hydraulic pressure pushes the piston; the caliper body slides or has opposing pistons.", "Pull to one side, dragging brake, fluid leak, uneven pad wear, noise."],
+["Caliper piston", "Pushes the pad against the rotor.", "Inside the caliper bore.", "Pressure moves the piston outward; the seal helps it retract slightly.", "Seized piston, torn boot, leak, uneven pad wear, overheating."],
+["Brake pads", "Create friction against the rotor.", "Inside the caliper on both sides of the rotor.", "Pressed against the rotor to slow it.", "Squeal, grinding, longer stopping distance, vibration, uneven wear, wear warning light."],
+["Brake disc (rotor)", "Rotating surface the pads grip; absorbs and sheds heat.", "Bolted to the wheel hub.", "Turns with the wheel until the pads squeeze it.", "Vibration, scoring, rust ridges, cracks, blue heat marks, pedal pulsation."],
+["Brake drum", "Rotating housing the shoes press against.", "Mounted on the rear hub (or front on some vehicles).", "Turns with the wheel; shoes press the inside surface.", "Scoring, out-of-round drum, noise, pulling, fluid contamination inside."],
+["Brake shoes", "Friction parts of a drum brake.", "Inside the drum on the backing plate.", "Wheel cylinder pushes them outward against the drum.", "Grinding, long pedal travel, weak parking brake, contaminated linings."],
+["Wheel cylinder", "Converts hydraulic pressure into outward shoe movement.", "At the top of the backing plate in a drum brake.", "Pressure pushes two pistons outward.", "Fluid leak at the boots, wet shoes, poor braking at one wheel."],
+["Return springs", "Pull shoes back from the drum when the pedal is released.", "Inside the drum brake.", "Spring tension retracts the shoes.", "Dragging brakes, noise, weak or stretched springs."],
+["Brake adjuster", "Keeps shoe-to-drum clearance correct as lining wears.", "Inside the drum brake.", "Self-adjusting types operate when the vehicle is braked in reverse or when the parking brake is applied, depending on design.", "Long pedal travel, poor parking brake action, seized adjuster."],
+["Parking brake mechanism", "Holds the vehicle when parked.", "Lever or pedal in the cabin, cables to the rear brakes, or an electric actuator.", "Cable pulls the shoes or caliper lever mechanically, or an electric motor applies the brake.", "Lever pulls too far, will not hold, will not release, cable seized, dragging."],
+["ABS system", "Prevents wheels from locking under hard braking.", "Wheel speed sensors, hydraulic unit and control module.", "Sensors detect a wheel slowing too fast; the hydraulic unit pulses pressure to keep the wheel turning.", "ABS light on, pulsing pedal in normal braking, wheel locks, sensor fault codes."],
+["Brake warning indicators", "Alert the driver to brake faults.", "Instrument panel.", "Lights respond to low fluid, parking brake on, ABS faults or pad wear sensors.", "Light stays on, flashes, or does not light at all during the bulb check."]
+]}}
+]
+},
+{
+"h": "Driver controls: pedal and booster",
+"blocks": [
+"The **brake pedal** is a lever. It gives the driver mechanical advantage and passes force to the booster. A pedal that has too much free play or feels rough can point to worn pedal bushings or incorrect adjustment.",
+"The **brake booster** sits between the pedal and the master cylinder. In a vacuum booster, engine vacuum on one side of a diaphragm and atmospheric pressure on the other produce an extra push. If the booster fails, the vehicle can still brake, but the pedal becomes very hard and stopping needs much more effort.",
+{"tip": "A simple booster check: with the engine off, press the pedal several times to use up stored vacuum, hold the pedal lightly, then start the engine. The pedal should move slightly downward. Procedures can differ by vehicle."}
+]
+},
+{
+"h": "Hydraulic parts: master cylinder, reservoir, fluid, lines, hoses",
+"blocks": [
+"The **master cylinder** has two pistons that feed **two separate hydraulic circuits**. This dual circuit design means that if one circuit fails, the other can still provide some braking. The **reservoir** on top supplies fluid to both circuits.",
+"**Brake fluid** must be the type specified by the vehicle manufacturer. Common classifications include DOT 3, DOT 4 and DOT 5.1 (glycol-based) and DOT 5 (silicone-based), and some vehicles use a mineral-based fluid instead. These must never be mixed unless the manufacturer allows it. Glycol-based fluids absorb moisture from the air over time, which is why fluid condition matters.",
+{"warn": "Never fill a brake system with an unspecified fluid. Using the wrong fluid can damage seals and make the brakes unsafe. Check the manufacturer's specification."},
+"**Brake lines** are rigid steel tubes. **Brake hoses** are flexible and connect the rigid lines to parts that move, such as calipers and wheel cylinders. Hoses are a frequent wear item because rubber ages and flexes constantly."
+]
+},
+{
+"h": "Disc brake parts",
+"blocks": [
+"A **caliper** is the housing that holds the pads and the piston. Two common designs are the **floating (sliding) caliper**, which slides on pins and has one or two pistons on one side, and the **fixed caliper**, which has pistons on both sides.",
+"The **caliper piston** moves outward under hydraulic pressure. A rubber **seal** around the piston helps it retract slightly after release, and a **dust boot** keeps dirt and moisture out.",
+"**Brake pads** have a steel backing plate and a layer of friction material. Some have a **wear indicator** (a metal tab that squeals, or an electrical sensor) that warns when the friction material is getting thin.",
+"The **disc (rotor)** may be solid or **ventilated** (two faces separated by vanes that move air for cooling). Some are drilled or slotted."
+]
+},
+{
+"h": "Drum brake parts",
+"blocks": [
+"A **brake drum** is a cast iron or composite housing. **Brake shoes** with friction linings sit inside on a **backing plate**. The **wheel cylinder** pushes the shoes outward. **Return springs** pull them back. An **adjuster** compensates for lining wear so the clearance stays small.",
+"Most drum brakes use a **leading shoe** and a **trailing shoe** arrangement so that the drum's rotation helps pull the leading shoe into the drum (this is called self-energising action)."
+]
+},
+{
+"h": "Parking brake mechanism",
+"blocks": [
+"Mechanical parking brakes use a **lever or pedal, equaliser, and cables** to apply the rear brakes. In drum brakes, a lever inside the drum spreads the shoes. In some disc brakes, a small drum brake is built into the rotor hat, or a mechanism on the caliper operates the piston. **Electric parking brakes** use a motor and control unit.",
+"Cables can stretch, corrode, or seize in their sleeves. This is why parking brake inspection is part of periodic maintenance."
+]
+},
+{
+"h": "ABS and warning indicators",
+"blocks": [
+"The **ABS** consists of wheel speed sensors, an electronic control unit, and a hydraulic modulator. During hard braking, if a wheel is about to lock, the system rapidly reduces and restores pressure to that wheel so it keeps turning. The driver may feel pulsing in the pedal and hear a buzzing; that is normal ABS action during emergency braking.",
+{"table": {"h": ["Indicator", "Usual meaning", "Basic response"], "r": [
+["Red brake light", "Parking brake applied, low fluid, or a hydraulic fault.", "Release the parking brake. If it stays on, stop safely and have the system inspected."],
+["Amber ABS light", "ABS fault. Conventional braking usually remains but ABS function is unavailable.", "Have the system diagnosed soon. Drive with extra care."],
+["Pad wear light (if fitted)", "Pad wear sensor has been reached.", "Inspect and replace pads as needed."],
+["Brake system or electronic stability lights", "Fault or active intervention, depending on the vehicle.", "Check the owner's manual."]
+]}},
+{"warn": "A red brake warning light that stays on while driving should be treated as a serious fault. Stop in a safe place and arrange an inspection."}
+]
+}
+],
+"concepts": [
+"The master cylinder has two circuits so a single leak does not remove all braking.",
+"Brake hoses are flexible wear items; rigid lines can rust.",
+"Pads and shoes are the friction parts, discs and drums are the rotating parts.",
+"The parking brake uses a separate mechanical or electric path.",
+"ABS pulsing during emergency braking is normal; an ABS warning light is not."
+],
+"examples": [
+"A vehicle slowly loses brake fluid, but there is no visible leak at the wheels. The leak could be inside the booster from a failing master cylinder seal.",
+"A vehicle pulls left when braking and the left front brake smells hot. A seized caliper piston or slide pin is a likely cause.",
+"A rear drum brake is found wet with fluid. A leaking wheel cylinder is a likely cause and the shoes are contaminated."
+],
+"safety": [
+"Never open the hydraulic system without knowing how to correctly bleed it afterwards.",
+"Do not blow brake dust with compressed air; the dust is hazardous.",
+"If the brake pedal is soft or sinks, do not drive the vehicle."
+],
+"practice": [
+"Using the component table, cover the right-hand columns and name the purpose of each component from memory.",
+"Look at a diagram of a disc brake and a drum brake and label every part you can name."
+],
+"check": [
+{"q": "Why does the master cylinder have two circuits?", "a": "So that if one circuit fails, the other can still provide some braking."},
+{"q": "What does a brake hose allow that a rigid brake line does not?", "a": "Movement between the body and the wheel, such as steering and suspension travel."},
+{"q": "What are the friction parts of a drum brake?", "a": "The brake shoes."},
+{"q": "What does the ABS do under hard braking?", "a": "It rapidly reduces and restores pressure at a wheel that is about to lock so the wheel keeps turning."},
+{"q": "A wheel cylinder leaks. What happens to the shoes?", "a": "They become contaminated by brake fluid and braking at that wheel is reduced."}
+],
+"summary": [
+"Force travels from pedal, to booster, to master cylinder, through lines and hoses, to wheel brakes.",
+"Disc brakes use calipers, pistons, pads and rotors; drum brakes use wheel cylinders, shoes, springs and adjusters.",
+"Fluid must meet manufacturer specifications.",
+"Warning lights give early notice of problems and must not be ignored."
+]
+}
